@@ -457,6 +457,12 @@
     user-select: none;
     font-weight: 400;
     color: black;
+
+    @media (max-width: 768px) {
+        width: 100%; /* Make the card take up the full width */
+        height: auto; /* Allow the height to adjust based on content */
+        padding: 20px;
+    }
   }
   
   .card:hover {
